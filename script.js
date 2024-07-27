@@ -11,7 +11,7 @@ function formatTime(seconds) {
 function calculateTimeRemaining() {
     const now = new Date();
     const targetTime = new Date();
-    targetTime.setHours(14, 0, 0, 0); // Set target time to 14:00:00
+    targetTime.setHours(14, 30, 0, 0); // Set target time to 14:00:00
     
     if (now > targetTime) {
         // If current time is past 14:00, set target time to 14:00 next day
