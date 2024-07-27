@@ -7,11 +7,11 @@ body {
     font-family: Arial, sans-serif;
     background: url('pod.png') no-repeat center center fixed; 
     background-size: cover;
-    padding: 20px;
 }
 
 .stopwatch {
     text-align: center;
+    margin-top: 20px;
     background: white;
     padding: 20px;
     border-radius: 10px;
