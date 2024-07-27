@@ -4,24 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Countdown to 14:30</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <h1>The moment you have been waiting for</h1>
-    <div class="things">
-        <div>
-            <h2>Carry the following things</h2>
-            <ul>
-                <li>Raincoat</li>
-                <li>Comfortable Clothes</li>
-            </ul>
-        </div>
+<body style="background: url('teamphoto.jpg') no-repeat center center fixed; background-size: cover;">
+    <div class="stopwatch">
+        <h1>Lesssgoo 🔥🔥</h1>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7539.272018987373!2d72.81255324213242!3d19.123617678362752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9e2bf7afb8d%3A0x5e9780a57ad5c88f!2sVersova%20Beach!5e0!3m2!1sen!2sin!4v1722065580715!5m2!1sen!2sin"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            width="100%" max-width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" style="display: block;"></iframe>
+        <div style="margin: 1rem;"></div>
+        <button onclick="displaymap()"
+            style="display: block; background-color: rgb(92, 8, 89); color: white; outline: none; border: none; width: 100%; padding: 10px; border-radius: 5px;">View
+            in Maps</button>
     </div>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
